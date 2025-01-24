@@ -73,7 +73,7 @@ header, footer{
 /* оформление постов */
 .post-info {
     color: #B0C4DE;
-    
+
 }
 /* оформление footer-а */
 
@@ -87,4 +87,7 @@ header, footer{
 }
 .menu-folder li a, .footer-column p a{
     color= #008080;
+}
+ h2{
+    color: grey;
 }
