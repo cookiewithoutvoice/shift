@@ -1,5 +1,6 @@
-header{
+header, footer{
 	background: #E6E6FA;
+	padding: 10px;
 }
 /* оформление меню на шапке сайта */
 #menu1{
@@ -68,4 +69,17 @@ header{
 	box-sizing: border-box;
 	border-top: 1px solid #00008B;
 	color: #008080;
+}
+/* оформление footer-а */
+
+.footer-columns{
+    display: flex;
+}
+.footer-column{
+    flex: 50%;
+    margin: 20px;
+    color='white'
+}
+.menu-folder li a, .footer-column p a{
+    color= #008080;
 }
