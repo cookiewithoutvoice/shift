@@ -1,0 +1,25 @@
+body{
+    box-sizing: border-box;
+    font-family: ;
+    background-color: ;
+    width: 1000px;
+    padding: 20px 150px 60px;
+    background-color: ;
+    box-shadow: 0 0 16px rgba(0, 0, 0, 0. 7);
+}
+#main_about{
+    border: 2px solid #ddd;
+    font-family: ;
+}
+}
+.block_about{
+    padding: 30px;
+}
+.alignright{
+    float:right ;
+    margin-right: 15px;
+}
+.alignleft{
+    float: left;
+    margin-left: 15px;
+}

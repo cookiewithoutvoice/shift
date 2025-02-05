@@ -1,0 +1,19 @@
+/*
+    background-color: red;
+    rgb(255, 0, 0);
+    hex(#f0f0f0);
+    rgba(255, 0, 0, .7);
+    background-image: url('');
+    background-repeat: repeat;
+    no-repeat;
+    repeat-x;
+    repeat-y;
+    space;
+    round;
+    background-position: left; center; right; top;  %; px; bottom;
+    background-size: px; %; auto;
+    background-attachment: fixeg; scroll; local;
+    background-origin: padding-box; border-box; content-box;
+    background-clip: padding-box; border-box; content-box; text;
+    background 0 p
+*/
