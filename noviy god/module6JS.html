@@ -1,0 +1,109 @@
+<head xmlns="http://www.w3.org/1999/html">
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+	<title> practik1 </title>
+	<link rel='stylesheet' href='module6.css'>
+    <style>
+        .Alabel{
+            : none;
+            color: blue;
+        }
+        .dz3{
+            color: grey;
+        }
+    </style>
+</head>
+
+<header>
+	<nav id = 'menu1'>
+		<ul class='menu-main'>
+			<li> <a href='#' class='current'> главная </a></li>
+			<li> <a href='#'> об авторе </a></li>
+			<li> <a href='#'> милота </a>
+				<ul>
+					<li> <a href='https://www.google.com/search?sca_esv=314d744163236d97&rlz=1C1GCEU_ruRU1145RU1145&sxsrf=ADLYWIL3l_DHPBPeAjOcoYNuoxOtzUoyDA:1737609775388&q=%D0%BA%D0%BE%D1%88%D0%BA%D0%B8+%D0%BF%D1%83%D1%88%D0%B8%D1%81%D1%82%D1%8B%D0%B5&udm=2&fbs=AEQNm0DDgaHKHmgQPgdfMPlZgxGLktch0PpVIwMIGICNm1smYaTuM3mndJP7y9gaCgUqrTG0pwiYgjqdcxVig90A6Hoh5Xoj4P6fcw1RQKSSMIZkwTJM9cGCSkesEIvTOQn1pyBIv3vQ710FZlk0XBstARDDO_WdZlNeLVh7_ixXfNTw60bsNrLVdFv1MdFtttjWLvJBULSdrrzDpLSJPqwSVS51OHqb4SwXFuJAhSqmXSTVhQo-oDM&sa=X&ved=2ahUKEwj8ga7rjIuLAxViFhAIHYCmF7oQtKgLegQIHBAB&biw=1920&bih=953&dpr=1'> котики </a></li>
+					<li> <a href='#'> хомяки </a></li>
+					<li> <a href='#'> собачки </a></li>
+					<li> <a href='#'> кролики </a></li>
+					<li> <a href='#'> паучки </a></li>
+				</ul>
+			</li>
+			<li> <a href='#'> контактные данные </a></li>
+		</ul>
+	</nav>
+</header>
+
+<body>
+    <!-- подключение скрипт файла -->
+    <hr>
+    <script src='#'></script>
+    <p id="p1"> paragraph with id = p1 </p>
+    <script>
+        /* window (глобальный объект - общее пространство для всех других объектов, как html, css и JS)
+            location
+            history
+            document
+            navigation
+            screen
+            innerHTML - обращение к объекту, для изменения его свойства(текст)
+            свойства языка:
+            1) регистрозависимость
+            2) комментарии
+            3) ключевые и зарезервированные слова
+            4) переменные
+            5) типы данных - underfined, Null, Boolean, String, Symbol, Numser (NaN, infinity, -infinity), object
+            6) арифметические операции
+            x+y
+            x-y
+            x*y
+            x/y
+            x%y - остаток от деления
+            x**y - степень
+            -x
+            x++, ++x
+            x--, -x
+            7) логические операции
+            не строгие - "--", "!=", '<', '>', '<=', '>='
+            строгие "===", '!=='
+            */
+        x = 2
+        y = 6
+        z = x+2/(x+1)*y
+        console.log(z + ' = значение отсчёта')
+        z = x+2/(x-2)*y
+        console.log(z + ' = значение отсчёта')
+        console.log('Hello from script, my users!')/*вызов данных на консоль*/
+        x = 10
+        y = 3
+        console.log (typeof(y>x))
+    </script>
+</body>
+
+<footer>
+	<div>
+		<div class="footer-columns">
+			<div class="logo-image"> <!-- логотип сайта -->
+				<img src="cat_logo.png" decoding='async' alt="Logo" width="150">
+			</div>
+			<div class="footer-column">
+				<ul class='menu-footer'>
+					<li> <a href='#' class='current'> главная </a></li>
+					<li> <a href='#'> об авторе </a></li>
+					<li> <a href='#'> милота </a></li>
+					<li> <a href='#'> контактные данные </a></li>
+				</ul>
+			</div>
+			<div class="footer-column">
+				<h3>контактная информация</h3>
+				<p>
+					если Вы вдруг захотите написать автору сайта (не знаю, как такая идея вообще может прийти) - он Вам печеньки даст (или по лбу)
+					<br>
+					<strong>Email - <a href="#"> email_lesa.com </a></strong>
+				</p>
+			</div>
+		</div>
+		<center>
+			<small> Copyright &copy; 2025 </small>
+		</center>
+	</div>
+</footer>
+</html>

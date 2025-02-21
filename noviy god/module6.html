@@ -1,7 +1,7 @@
 <head xmlns="http://www.w3.org/1999/html">
 	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
 	<title> practik1 </title>
-	<link rel='stylesheet' href='p4.css'>
+	<link rel='stylesheet' href='module6.css'>
     <style>
         .Alabel{
             : none;
@@ -113,6 +113,77 @@
         <input type='submit' value='отправить форму'>
     </form>
     <hr>
+    <form action="#" method="post" target="_blank">
+        <h2>шаблон формы персональных данных</h2>
+        <fieldset>
+            <legend> *основная информация </legend>
+            <ul>
+                <li>
+                    <label for="name"> имя: </label>
+                    <input type="text" name="name" placeholder="Антон Дмитриеваич" id="name" required>
+                </li>
+                <li>
+                    <label for="age"> возраст: </label>
+                    <input type="number" name="age" placeholder='27' id="age" min="0" max="125">
+                </li>
+            </ul>
+        </fieldset>
+        <fieldset>
+            <legend> *контакты </legend>
+            <ul>
+                <li>
+                    <label for="email"> электронная почта: </label>
+                    <input type="tel" name="email" placeholder="pochta@gmail.ru" id="email" required>
+                </li>
+                <li>
+                    <label for="phone"> номер телефона: </label>
+                    <input type="" name="phone" placeholder="8900--------" id="number" maxlength="12" required>
+                </li>
+            </ul>
+        </fieldset>
+        <div>
+            <label for="massage"> Ваши увлечения </label>
+            <textarea name="comment" id="massage" placeholder="напишите сочинение-рассуждение на данную тему прослушайте и напишите сжатое изложение. учтите, что Вы должны передать главную тему как каждой микротемы, так и всего текста в целом. объём изложения не менее семидесяти слов. на выполнение задания даётся один большой шишка"></textarea>
+        </div>
+        <fieldset>
+            <legend> обучение </legend>
+            <ul>
+                <li>
+                    <input type="checkbox" name="intensive-courses" id="courses" checked>
+                    <label for="courses"> учусь на курсе </label>
+                </li>
+                <li>
+                    <input type="checkbox" name="books" id="books">
+                    <label for="books"> читаю книги </label>
+                </li>
+                <li>
+                    <input type="checkbox" name="video" id="video">
+                    <label for="video"> смотрю видео </label>
+                </li>
+            </ul>
+        </fieldset>
+        <fieldset>
+            <legend> предпочтения </legend>
+            <ul>
+                <li>
+                    <input type="radio" name="preference" id="front" value="frontend" checked>
+                    <label for="front">*фронтенд-разработка</label>
+                </li>
+                <li>
+                    <input type="radio" name="preference" id="back" value="backend" checked>
+                    <label for="back">*бэкенд-разработка</label>
+                </li>
+            </ul>
+        </fieldset>
+        <div class="popup">
+            <label> Вы выбрали не все обязательные пункты.<br> Партия разочарована в Вас. <br> -миска риса и кошкожена </label>
+            <!-- Содержимое всплывающего окна -->
+        </div>
+        <div>
+            <button onclick="openPopup()"> отправить </button>
+            <p> * - обязательное поле, но Вы же знаете, что у нас всё добровольно(принудительно)</p>
+        </div>
+    </form>
 </body>
 
 <footer>
