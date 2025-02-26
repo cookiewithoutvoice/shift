@@ -1,3 +1,4 @@
+<html>
 <head xmlns="http://www.w3.org/1999/html">
 	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
 	<title> practik1 </title>
@@ -75,6 +76,79 @@
         x = 10
         y = 3
         console.log (typeof(y>x))
+		alert('сообщение'); /*диалоговое окно вывода данных*/
+		confirm('продолжить?'); /*диалоговое окно с подтверждением*/
+		value = promt('введите значение переменной: ', 'важно'); /*текст*/
+		age = +promt('введите Ваш возраст: ', 'возраст')
+		/*запросить у пользователя число, возвести его во вторую степень ивывести его на экран*/
+		value_user = +promt('Введите число: ')
+		value_user = value_user**2
+		alert(value_user)
+		/*запросить два числа, вывести среднее арифметическое*/
+		value_user1 = +promt('введите число: ')
+		value_user2 = +promt('введите число: ')
+		alert((value_user1+value_user2)/2)
+		/*запросить длинну стороны квадрата, вывести площадь*/
+		value_u = +promt('введите сторону квадрата: ')
+		alert(value_u**2)
+		/**/
+		value_um = +promt('введите путь в милях: ')
+		const convert_promt = 0.62
+		if (value_um*convert_promt > 50){
+			alert(str(value_um*convert_promt) + 'слишком много цифр')
+		}
+		else{
+			alert(str(value_um*convert_promt))
+		}
+
+		/*разница в курсе валют*/
+		v = +promt('введите вчерашний курс валюты: ')
+		b = +promt('введите сегодняшний курс валюты: ')
+		c = v-b
+		if (c < 0){
+			c = -c
+		}
+		alert(c)
+
+		/*вычисляем скидку*/
+		s = +promt('введите сумму покупки: ')
+		sc = +promt('введите размер скидки: ')
+		gg = sc/100
+		if (s > 1000){
+			s = s*gg
+		}
+		alert(s)
+
+		/*чётное-нечётное*/
+		nya = +promt('введите число: ')
+		if (nya%2 == 0){
+			alert('even')
+		}
+		else{
+			alert('odd')
+		}
+		/*switch case конструкция*/
+		protocol = promt('введите название сетевого протокола: ')
+		switch(protocol){
+			case 'HTTP':
+				description = 'HYPERTEXT TRANSFER PROTOCOL'
+				alert(description)
+				break
+			case 'HTTPS':
+				description = 'SECURE HYPERTEXT TRANSFER PROTOCOL'
+				alert(description)
+				break
+			case 'FTP':
+				description = 'FILE TRANSFER PROTOCOL'
+				alert(description)
+				break
+			default: /*аналог else для обработки*/
+				description = 'Unsupported protocol'
+				alert(description)
+		}
+		/*чётное-нечётное, out of range*/
+		/*от 1 до 10, меньше 5 - от х до 5, больше - от х до 10*/
+		
     </script>
 </body>
 
